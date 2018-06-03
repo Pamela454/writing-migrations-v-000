@@ -1,4 +1,4 @@
-class GradeBirthdate < ActiveRecord::Migration[5.1]
+class ColumnType < ActiveRecord::Migration[5.1]
 
   #def change_column(:students, :birthdate, :datetime)
   #end
