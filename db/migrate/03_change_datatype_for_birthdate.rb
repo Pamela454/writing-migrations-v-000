@@ -1,6 +1,7 @@
 class ColumnType < ActiveRecord::Migration[5.1]
 
-  #def change_column(:students, :birthdate, :datetime)
-  #end
+  def change
+    change_column(:students, :birthdate, :datetime)
+  end
 
 end
