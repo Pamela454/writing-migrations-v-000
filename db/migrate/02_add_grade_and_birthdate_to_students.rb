@@ -1,6 +1,6 @@
 class CreateStudents < ActiveRecord::Migration[5.1]
 
-  def change
+  def add_column
     create_table :artists do |t|
       t.string :name
     end
